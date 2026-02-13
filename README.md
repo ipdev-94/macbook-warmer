@@ -25,26 +25,11 @@ chmod +x warmup.sh
 ```bash
 # Start warming (6 cores by default)
 ./warmup.sh
-
-# Gentle warmth (4 cores) — date night mode
 ./warmup.sh 4
-
-# Maximum toastiness (all 8 cores) — you monster
 ./warmup.sh 8
-
-# Stop before your lap becomes a panini press
 ./warmup.sh stop
 # ...or just Ctrl+C
 ```
-
-## Warmth Levels Guide
-
-| Cores | Vibe                                           |
-|-------|------------------------------------------------|
-| 2 | "Is it on?"                                    |
-| 4 | Cozy cafe laptop                               |
-| 6 | Recommended — warm but your Mac still works    |
-| 8 | You are now cooking breakfast on your trackpad |
 
 ## FAQ
 
